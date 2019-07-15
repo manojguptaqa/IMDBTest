@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="IMDB Tests(failed)">
+    <classes>
+      <class name="Tests.Top_Rated_Movies_Sorting_Tests">
+        <methods>
+          <include name="Top_Rated_Movies_SortBy_Date_Asc"/>
+          <include name="Top_Rated_Movies_SortBy_Number_Of_Ratings_Desc"/>
+          <include name="Top_Rated_Movies_SortBy_Ratings_Desc"/>
+          <include name="beforeSuite"/>
+          <include name="Top_Rated_Movies_SortBy_Number_Of_Ratings_Asc"/>
+          <include name="Top_Rated_Movies_SortBy_Ratings_Asc"/>
+          <include name="Top_Rated_Movies_SortBy_Rank_Desc"/>
+          <include name="Top_Rated_Movies_SortBy_Rank_Asc"/>
+          <include name="beforeClass"/>
+          <include name="Top_Rated_Movies_SortBy_Date_Desc"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Tests.Top_Rated_Movies_Sorting_Tests -->
+    </classes>
+  </test> <!-- IMDB Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

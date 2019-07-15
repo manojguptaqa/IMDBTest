@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 317.437 sec <<< FAILURE! - in TestSuite
+Top_Rated_Movies_SortBy_Date_Asc(Tests.Top_Rated_Movies_Sorting_Tests)  Time elapsed: 33.555 sec  <<< FAILURE!
+java.lang.AssertionError: <b>After sorting data not as expected</b> expected [true] but found [false]
+	at Tests.Top_Rated_Movies_Sorting_Tests.Top_Rated_Movies_SortBy_Date_Asc(Top_Rated_Movies_Sorting_Tests.java:65)
+
+Top_Rated_Movies_SortBy_Date_Desc(Tests.Top_Rated_Movies_Sorting_Tests)  Time elapsed: 31.68 sec  <<< FAILURE!
+java.lang.AssertionError: <b>After sorting data not as expected</b> expected [true] but found [false]
+	at Tests.Top_Rated_Movies_Sorting_Tests.Top_Rated_Movies_SortBy_Date_Desc(Top_Rated_Movies_Sorting_Tests.java:73)
+
+Top_Rated_Movies_SortBy_Number_Of_Ratings_Asc(Tests.Top_Rated_Movies_Sorting_Tests)  Time elapsed: 31.707 sec  <<< FAILURE!
+java.lang.AssertionError: <b>After sorting data not as expected</b> expected [true] but found [false]
+	at Tests.Top_Rated_Movies_Sorting_Tests.Top_Rated_Movies_SortBy_Number_Of_Ratings_Asc(Top_Rated_Movies_Sorting_Tests.java:31)
+
+Top_Rated_Movies_SortBy_Number_Of_Ratings_Desc(Tests.Top_Rated_Movies_Sorting_Tests)  Time elapsed: 31.527 sec  <<< FAILURE!
+java.lang.AssertionError: <b>After sorting data not as expected</b> expected [true] but found [false]
+	at Tests.Top_Rated_Movies_Sorting_Tests.Top_Rated_Movies_SortBy_Number_Of_Ratings_Desc(Top_Rated_Movies_Sorting_Tests.java:41)
+
+Top_Rated_Movies_SortBy_Ratings_Asc(Tests.Top_Rated_Movies_Sorting_Tests)  Time elapsed: 32.288 sec  <<< FAILURE!
+java.lang.AssertionError: <b>After sorting data not as expected</b> expected [true] but found [false]
+	at Tests.Top_Rated_Movies_Sorting_Tests.Top_Rated_Movies_SortBy_Ratings_Asc(Top_Rated_Movies_Sorting_Tests.java:49)
+
+Top_Rated_Movies_SortBy_Ratings_Desc(Tests.Top_Rated_Movies_Sorting_Tests)  Time elapsed: 32.291 sec  <<< FAILURE!
+java.lang.AssertionError: <b>After sorting data not as expected</b> expected [true] but found [false]
+	at Tests.Top_Rated_Movies_Sorting_Tests.Top_Rated_Movies_SortBy_Ratings_Desc(Top_Rated_Movies_Sorting_Tests.java:57)
+
